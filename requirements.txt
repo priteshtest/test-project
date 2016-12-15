@@ -9,10 +9,7 @@ tornado>=4.2,<5
 thriftrw>=0.4,<2
 threadloop>=1,<2
 six==1.10.0
-virtualenv==15.1.10
 distribute==0.7.3
-python-dateutil==2.6.0
-certifi==2016.9.26
 boto==2.44.0
 pbr==1.10.0
 requests==2.12.3
