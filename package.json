@@ -15,11 +15,15 @@
         "lodash":"4.17.x",
         "browserify":"13.x.x",
         "pm2":"2.2.2",
-        "underscore":"1.8.3 ",
+	    "primus": "*",
+        "underscore":"1.8.x ",
         "winston":"git://github.com/flatiron/winston#master",
         "bigpipe":"bigpipe/pagelet",
         "plates":"https://github.com/flatiron/plates/tarball/master"
     }, 
+    "devDependencies": {
+    "vows": "^0.7.0"
+  },
     "version": "1.0.0", 
     "name": "test-project"
 }
