@@ -98,7 +98,7 @@ group :test do
   gem "benchmark-ips"
 end
 
-platforms :ruby, :mswin, :mswin64, :mingw, :x64_mingw do
+platforms :ruby, :mingw, :x64_mingw do
   gem "nokogiri", ">= 1.6.8"
 
   # Needed for compiling the ActionDispatch::Journey parser.
@@ -145,5 +145,3 @@ end
 
 # A gem necessary for Active Record tests with IBM DB.
 gem "ibm_db" if ENV["IBM_DB"]
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem "wdm", ">= 0.1.0", platforms: [:mingw, :mswin, :x64_mingw, :mswin64]
